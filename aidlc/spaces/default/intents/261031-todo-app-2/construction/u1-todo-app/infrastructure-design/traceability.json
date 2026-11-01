@@ -1,0 +1,80 @@
+{
+  "stage": "infrastructure-design",
+  "unit": "u1-todo-app",
+  "upstream_ids": [
+    "NFR1.1",
+    "NFR1.2",
+    "NFR1.3",
+    "NFR2.1",
+    "NFR2.2",
+    "NFR4.1",
+    "NFR4.2",
+    "NFR3.1",
+    "NFR3.2",
+    "NFR3.3",
+    "NFR3.4",
+    "NFR3.5"
+  ],
+  "coverage": [
+    {
+      "id": "NFR1.1",
+      "status": "N/A",
+      "target": "client-side React state design"
+    },
+    {
+      "id": "NFR1.2",
+      "status": "N/A",
+      "target": "client-side React state design"
+    },
+    {
+      "id": "NFR1.3",
+      "status": "N/A",
+      "target": "client-side rendering design"
+    },
+    {
+      "id": "NFR2.1",
+      "status": "N/A",
+      "target": "client-side responsive layout design"
+    },
+    {
+      "id": "NFR2.2",
+      "status": "N/A",
+      "target": "client-side responsive layout design"
+    },
+    {
+      "id": "NFR4.1",
+      "status": "OK",
+      "target": "cicd-pipeline.md: test workflow"
+    },
+    {
+      "id": "NFR4.2",
+      "status": "OK",
+      "target": "cicd-pipeline.md: coverage workflow"
+    },
+    {
+      "id": "NFR3.1",
+      "status": "N/A",
+      "target": "client-side React rendering design"
+    },
+    {
+      "id": "NFR3.2",
+      "status": "N/A",
+      "target": "client-side storage adapter design"
+    },
+    {
+      "id": "NFR3.3",
+      "status": "N/A",
+      "target": "client-side storage adapter design"
+    },
+    {
+      "id": "NFR3.4",
+      "status": "N/A",
+      "target": "client-side storage adapter design"
+    },
+    {
+      "id": "NFR3.5",
+      "status": "N/A",
+      "target": "client-side accessibility design"
+    }
+  ]
+}

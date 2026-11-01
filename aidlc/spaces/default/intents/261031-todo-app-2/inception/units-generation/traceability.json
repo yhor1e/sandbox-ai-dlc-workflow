@@ -1,0 +1,25 @@
+{
+  "stage": "units-generation",
+  "upstream_ids": [
+    "US1.1",
+    "US1.2",
+    "US1.3"
+  ],
+  "coverage": [
+    {
+      "id": "US1.1",
+      "status": "OK",
+      "target": "U1"
+    },
+    {
+      "id": "US1.2",
+      "status": "OK",
+      "target": "U1"
+    },
+    {
+      "id": "US1.3",
+      "status": "OK",
+      "target": "U1"
+    }
+  ]
+}

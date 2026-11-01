@@ -56,11 +56,29 @@
 <!-- Format: NEVER [behavior] (affirmed [date]) -->
 <!-- Example: NEVER throw exceptions across service layer boundaries (affirmed 2026-05-17) -->
 
+- NEVER CI の行カバレッジが 80% 未満の変更を統合する。 (affirmed 2026-10-31)
+
+- NEVER フォーマッターまたは静的チェックに違反した変更を統合する。 (affirmed 2026-10-31)
+
+- NEVER 手動承認なしに本番へ配備する。 (affirmed 2026-10-31)
+
 ## Mandated
 
 <!-- Populated by practices-discovery affirmation gate. -->
 <!-- Format: ALWAYS [behavior] (affirmed [date]) -->
 <!-- Example: ALWAYS use Result<T,E> for fallible operations in service layer (affirmed 2026-05-17) -->
+
+- ALWAYS レビュー後に通常の merge commit で `main` へ統合する。 (affirmed 2026-10-31)
+
+- ALWAYS 最初の薄い通し実装には TODO の追加と画面表示だけを含める。 (affirmed 2026-10-31)
+
+- ALWAYS 実装後にテストを書き、CI で行カバレッジ 80% 以上を検証する。 (affirmed 2026-10-31)
+
+- ALWAYS `main` への統合後にステージングへ自動配備する。 (affirmed 2026-10-31)
+
+- ALWAYS 本番への配備前に手動承認を得る。 (affirmed 2026-10-31)
+
+- ALWAYS 標準的なフォーマッターと静的チェックを CI で実行する。 (affirmed 2026-10-31)
 
 ## Corrections
 
